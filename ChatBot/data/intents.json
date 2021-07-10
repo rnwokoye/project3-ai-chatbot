@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, how can I help you", "Good to see you again", "Hi there, how can I help?", "Welcome to Johns Hopkns Bootcamp"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Nice chatting with you"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome"],
+     "context": [""]
+    },
+    {"tag": "name",
+        "patterns": ["what is your name","what should i call you","whats your name","are you a robot","tell me your name", "tell me what they call you"],
+        "responses": ["My name is AI Chatbot", "You can call me AI Chatbot","People call me AI Chatbot", "I am AI Chatbot"],
+        "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What can you do?", "What help do you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through course selections","I can list available programs","Offering support for programming classes"],
+     "context": [""]
+    },
+    {"tag": "courses",
+        "patterns": ["what courses are available", "what trainings are offered in Data science", "what language should I learn", "progamming languages"],
+        "responses": ["We offer full time and part time Data Science and Data Analysis with Python!"],
+        "context": [""]
+       },
+       {"tag": "search_trainings",
+           "patterns": ["do you offer programming classes","do you have trainings","I want to learn a programing language","looking for learn coding"],
+           "responses": ["Yes we have data science courses", "We offer several classes for data science","We can teach you to code"],
+           "context": [""]
+    }
+]
+}
